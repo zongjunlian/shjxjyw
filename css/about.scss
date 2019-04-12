@@ -1,0 +1,178 @@
+.banner a {
+    background-image: url(../img/09.jpg);
+    height: 280px;
+    display: block;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.side-bar{
+    .box{
+        margin-right: 20px;
+        width: 284px;
+        background: #fff;
+        padding: 15px;
+    }
+    .sign-up-hd{
+        position: relative;
+        padding-left: 80px;
+        height: 71px;
+        border-bottom: 1px solid #dfdfdf;
+        .kf-img{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 71px;
+            height: 71px;
+            background: url(../img/bg.png) no-repeat -570px -35px;
+        }
+    }
+    .side-form{
+        .form-item{
+            margin-top: 12px;
+            .form-lab {
+                    float: left;
+                    width: 50px;
+            }
+            .form-field {
+                overflow: hidden;
+                .select-w2 {
+                    float: left;
+                    width: 95px;
+                }
+                .select-w2:first-child {
+                    margin-right: 10px;
+                }
+                .btn, .btn:hover {
+                    display: inline-block;
+                    padding: 4px 10px;
+                    color: #fff;
+                    cursor: pointer;
+                    text-decoration: none;
+                    border: 0;
+                    border-bottom: 2px solid #e06900;
+                    background-color: #ff7700;
+                }
+                 .text {
+                    width: 200px;
+                }
+            }
+        }
+    }
+    .newsLft{
+                margin-right: 20px;
+                width: 284px; 
+                .content{
+                    background-color: #fff;
+                    .content-hd{
+                        padding: 0 15px;
+                        height: 50px;
+                        line-height: 50px;
+                        border-bottom: 1px solid #005bac;
+                        .content-title{
+                            float: left;
+                            font-size: 18px;
+                            color: #005bac;
+                        }
+                        .more{
+                                float: right;
+                                font-size: 14px;
+                                color: #aaa;
+                                text-decoration: none;
+                            }
+                    }
+                    ul{
+                        padding: 15px;
+                        margin: 0;
+                        li{
+                            padding-left: 20px;
+                            height: 42px;
+                            line-height: 42px;
+                            border-bottom: 1px dashed #e6e6e6;
+                            background: url(../img/list_icon_2.png) no-repeat 0 center;
+                        }
+                    }
+                }
+            }
+}
+.content-wrap{
+    width: 696px;
+    .box{
+        margin-bottom: 20px;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+        .box-hd {
+            padding: 0 15px;
+            color: #b7b7b7;
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #005bac;
+            a{
+                color: #b7b7b7;
+            }
+        }
+        .box-bd{
+            padding: 15px;
+            .news-list{
+                li{
+                    background: url(../img/leftbar_arc.jpg) no-repeat left;
+                    text-align: right;
+                    padding-left: 20px;
+                    height: 42px;
+                    line-height: 42px;
+                    border-bottom: 1px dashed #e6e6e6;
+                    .list-time{
+                        float: right;
+                        margin-left: 20px;
+                       
+                    }
+                    a{
+                        font-size: 15px;
+                        padding-left: 0;
+                        float: left;
+                        background: none;
+                        outline: 0;
+                        color: #545454;
+                        text-decoration: none;
+                         &:hover {
+                            color: #f46200;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                
+            }
+            .article-bd{
+                a:first-child img{
+                    margin-top: 0px;
+                }
+                img{
+                    margin-top: 10px;
+                }
+            }
+            .baoming-bd{
+                input,select{
+                    width:400px;
+                }
+            }
+        }
+    }
+}
+//微信
+.weinxin{
+    position:fixed; 
+    right:0px; 
+    top:40%; 
+    z-index:10000000
+}
+.article-hd {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    border-bottom: 1px solid #dfdfdf;
+    h1{
+        margin-bottom: 10px;
+        color: rgb(0, 91, 172);
+        font-size: 24px;
+    }
+}

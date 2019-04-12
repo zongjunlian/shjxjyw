@@ -1,0 +1,483 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\000031}}
+html,
+body {
+  color: #545454;
+  background-color: #f8f8f8;
+  -ms-overflow-style: scrollbar;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\000038}}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000312}}
+a {
+  outline: 0;
+  color: #545454;
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000317}}
+img {
+  max-width: 100%;
+  border: 0 none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000321}}
+.text {
+  padding: 4px;
+  border: 1px solid #dfdfdf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000325}}
+.main-container {
+  position: relative;
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000329}}
+.mb20 {
+  margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000332}}
+.mt20 {
+  margin-top: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000335}}
+.mt10 {
+  margin-top: 10px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000338}}
+.h698 {
+  min-height: 698px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000341}}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000346}}
+.ellipsis, .ellipsis li {
+  overflow: hidden;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000354}}
+.header {
+  padding: 17px 0;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000357}}
+.header .wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000361}}
+.header .wrapper .header-logo {
+  float: left;
+  width: 525px;
+  height: 65px;
+  background: url(../img/bg.png) no-repeat 0 -35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000367}}
+.header .wrapper .header-tel {
+  position: relative;
+  float: right;
+  width: 250px;
+  text-align: right;
+  margin-top: 13px;
+  padding-left: 20px;
+  height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #cc2129;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000378}}
+.header .wrapper .header-tel .contact-tel {
+  position: absolute;
+  left: 0;
+  top: -6px;
+  width: 60px;
+  height: 51px;
+  background: url(../img/tel.png) no-repeat 0px 0px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000391}}
+.main-nav {
+  border-top: 4px solid #8dbf2a;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.5);
+  background-color: #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000395}}
+.main-nav .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\0000398}}
+.main-nav .wrapper .main-menu {
+  margin-bottom: 0px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003100}}
+.main-nav .wrapper .main-menu li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003102}}
+.main-nav .wrapper .main-menu li a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  width: 111px;
+  height: 51px;
+  line-height: 51px;
+  font-size: 16px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003112}}
+.main-nav .wrapper .main-menu li a:hover {
+  background-color: #004f9b;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003116}}
+.main-nav .wrapper .main-menu li.current a {
+  background-color: #004f9b;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003124}}
+.footer {
+  margin-top: 20px;
+  padding: 20px 0;
+  border-top: 5px #d6e6f2 solid;
+  background-color: #e8f2fa;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003129}}
+.footer .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003132}}
+.footer .wrapper .footer-left {
+  line-height: 2.2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003134}}
+.footer .wrapper .footer-left a {
+  outline: 0;
+  color: #545454;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003139}}
+.footer .wrapper .footer-logo {
+  float: right;
+  width: 290px;
+  height: 65px;
+  margin-top: 15px;
+  background: url(../img/bg.png) no-repeat 0 -100px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003150}}
+.kefu {
+  position: fixed;
+  top: 30%;
+  left: 0;
+  background: #005bac;
+  color: #fff;
+  border: 1px solid #005bac;
+  border-radius: 5px;
+  width: 130px;
+  margin-left: 1px;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003161}}
+.kefu p {
+  margin: 0;
+  padding: 10px 5px;
+  font-size: 16px;
+  border-bottom: 1px solid #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003164}}
+.kefu p i {
+  float: left;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url(../img/kefu.png) no-repeat;
+  background-size: 28px 28px;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003173}}
+.kefu p span {
+  margin-top: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003179}}
+.kefu ul {
+  padding: 0 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003182}}
+.kefu ul li:not(:last-child) {
+  border-bottom: 1px solid #ada2a2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003185}}
+.kefu ul li {
+  padding: 4px;
+  line-height: 26px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003192}}
+.kefu-box {
+  position: fixed;
+  width: 240px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003195}}
+.kefu-box .tit {
+  background: url(../img/boardTop9.png) no-repeat center;
+  color: #fff;
+  margin: 0;
+  line-height: 40px;
+  padding: 0 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003203}}
+.kefu-box .tit .lessbox {
+  line-height: 40px;
+  float: right;
+  width: 16px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003211}}
+.kefu-box .tit i.less {
+  display: inline-block;
+  height: 0;
+  width: 16px;
+  border: 2px solid #fff;
+  margin-top: 18px;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003219}}
+.kefu-box .tit i.more {
+  display: inline-block;
+  height: 14px;
+  width: 16px;
+  border: 2px solid #fff;
+  float: right;
+  cursor: pointer;
+  margin-top: 14px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003229}}
+.kefu-box .kefu-con {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #ededed;
+  padding: 10px;
+  width: 100%;
+  margin-top: -1px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003236}}
+.kefu-box .kefu-con textarea {
+  width: 100%;
+  border: 1px solid #d5d5d5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003237}}
+.kefu-box .kefu-con .send {
+  height: 35px;
+  width: 90px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  background: #FE96AC;
+  outline: none;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003250}}
+.kefu-box .kefu-con .nodeboard {
+  height: 30px;
+  width: 221px;
+  line-height: 30px;
+  border: 1px solid #d5d5d5;
+  position: relative;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003257}}
+.kefu-box .kefu-con .nodeboard .user {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/user.png) no-repeat 9px center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003266}}
+.kefu-box .kefu-con .nodeboard .nodephone {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/nodephone.png) no-repeat 9px center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003275}}
+.kefu-box .kefu-con .nodeboard .nodeemail {
+  width: 35px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/nodemail.png) no-repeat 9px center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003284}}
+.kefu-box .kefu-con .nodeboard input {
+  margin: 0;
+  width: 140px;
+  height: 26px;
+  overflow: hidden;
+  border: none;
+  display: inline-block;
+  outline: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003298}}
+.phone {
+  position: fixed;
+  right: 1px;
+  bottom: 0;
+  background: #37bbff;
+  width: 134px;
+  height: 164px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003305}}
+.phone .phonebox {
+  width: 100%;
+  height: 100%;
+  background: url(../img/mytel.png) no-repeat;
+  z-index: 2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003310}}
+.phone .phonebox .phonecon {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003315}}
+.phone .phonebox .phonecon input {
+  width: 100%;
+  height: 26px;
+  line-height: 26px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003320}}
+.phone .phonebox .phonecon .button {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background: #004F9B;
+  cursor: pointer;
+  line-height: 28px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003334}}
+.tips1 {
+  position: fixed;
+  bottom: 45px;
+  right: 148px;
+  background: #ffecbf;
+  width: 300px;
+  padding: 10px 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003341}}
+.tips1 .closeTip {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  font-size: 26px;
+  float: right;
+  color: #000;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003350}}
+.tips1 p {
+  color: #000;
+  font-size: 12px;
+  margin: 0;
+  line-height: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003356}}
+.tips1 .triangle {
+  position: absolute;
+  right: -22px;
+  bottom: 10px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-left-color: #ffecbf;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003367}}
+.tips2 {
+  position: fixed;
+  bottom: 14px;
+  right: 148px;
+  border: 2px solid #36bbfe;
+  background: #fff;
+  width: 310px;
+  height: 150px;
+  padding: 10px 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003376}}
+.tips2 .closeTip2 {
+  position: absolute;
+  top: -4px;
+  right: 10px;
+  font-size: 26px;
+  float: right;
+  color: #000;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003385}}
+.tips2 p {
+  font-size: 18px;
+  color: red;
+  text-align: center;
+  margin-top: 34px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003391}}
+.tips2 .triangle {
+  position: absolute;
+  right: -25px;
+  bottom: 10px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-left-color: #36bbfe;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/headerFooter\.scss}line{font-family:\00003400}}
+.tips2 .triangle span {
+  position: absolute;
+  right: -9px;
+  bottom: -12px;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-left-color: #fff;
+}
+
+/*# sourceMappingURL=headerFooter.css.map */

@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\000031}}
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\000038}}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000312}}
+a {
+  text-decoration: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000316}}
+#firstPage {
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg1.jpg) no-repeat;
+  background-size: cover;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000321}}
+#firstPage .top {
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000322}}
+#firstPage .top img {
+  margin-top: 10%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000328}}
+#firstPage .middle {
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000330}}
+#firstPage .middle img {
+  border: 1px #ccc solid;
+  padding: 2px;
+  background: #FFFFFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000337}}
+#firstPage .bottom p:first-child {
+  text-align: center;
+  font-size: 18px;
+  font-family: '微软雅黑';
+  color: #0575ae;
+  margin-top: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/firstPage\.scss}line{font-family:\0000345}}
+#firstPage .bottom p:last-child {
+  text-align: center;
+  font-size: 12px;
+  font-family: '微软雅黑';
+  color: #555;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=firstPage.css.map */

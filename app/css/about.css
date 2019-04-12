@@ -1,0 +1,230 @@
+html {
+  font-size: 16px;
+}
+
+.about-top {
+  font-size: 0.4rem;
+  color: #999999;
+  line-height: 0.75rem;
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.3125rem;
+  text-align: right;
+}
+
+.about-top a:nth-child(2) {
+  color: #3d5aa0;
+}
+
+.about {
+  padding: 0 0.3125rem 0.3125rem;
+}
+.about p {
+  text-indent: 0.875rem;
+  padding: 0.3125rem 0;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.zhaosheng {
+  padding: 0 0.3125rem 0.3125rem;
+}
+.zhaosheng ul {
+  margin: 0.3125rem 0;
+}
+.zhaosheng ul li {
+  padding: 0.3125rem 0;
+  border-bottom: 0.0625em dashed #bababa;
+}
+.zhaosheng ul li .dyh3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  font-size: 0.475rem;
+  color: #666666;
+  line-height: 0.515625rem;
+}
+
+.zhengshu {
+  padding: 0 0.3125rem 0.3125rem;
+}
+.zhengshu img {
+  margin-top: 0.3125rem;
+  width: 100%;
+}
+
+.baoming {
+  padding: 0 0.3125rem 0.3125rem;
+}
+.baoming .baomingBtn {
+  margin-top: 0.625rem;
+}
+.baoming .baomingBtn .btn {
+  padding: 0.125rem 0.625rem;
+  font-size: 1.5em;
+}
+.baoming input, .baoming select {
+  margin-top: 0.3125rem;
+  display: block;
+  width: 100%;
+  height: 1.125rem;
+  padding: 0.125rem 0.25rem;
+  font-size: 1.375em;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.baoming select option {
+  width: 100%;
+}
+
+.page {
+  text-align: center;
+  margin-bottom: 0.625rem;
+  margin-top: 1.5rem;
+}
+.page a {
+  font-size: 1.125em;
+  color: #999999;
+  padding: 0.15625rem 0.234375rem;
+  border: 1px solid #dcdcdc;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 0 0.15625rem;
+}
+
+.nwscont {
+  padding: 0.3125rem 0;
+}
+
+.nwstop {
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.234375rem;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.nwsh3 {
+  font-size: 0.4375rem;
+  color: #3e5ba1;
+  line-height: 0.5625rem;
+}
+
+.nwstime {
+  font-size: 1.125em;
+  color: #999999;
+  line-height: 0.75rem;
+}
+
+[data-dpr="1"] .dt-nyp {
+  font-size: 18px;
+}
+
+[data-dpr="2"] .dt-nyp {
+  font-size: 36px;
+}
+
+[data-dpr="3"] .dt-nyp {
+  font-size: 46px;
+}
+
+.dt-nyp {
+  margin: 0.625rem 0;
+  color: #333333;
+  line-height: 0.75rem;
+}
+
+.nwssele {
+  margin: 0.625rem 0;
+  font-size: 1.25em;
+  color: #666666;
+  line-height: 0.75rem;
+}
+
+.phone {
+  position: fixed;
+  right: 1px;
+  bottom: 30%;
+  background: #37bbff;
+  width: 3.375rem;
+  height: 5rem;
+  font-size: 1.25em;
+  z-index: 20;
+}
+.phone .phonebox {
+  width: 100%;
+  height: 100%;
+  background: url(../img/1.png) no-repeat center;
+  background-size: 100%;
+  background-position-y: 0.5rem;
+  z-index: 2;
+}
+.phone .phonebox .close {
+  font-size: 1.5em;
+  position: absolute;
+  top: 0;
+  right: 0.125em;
+}
+.phone .phonebox .phonecon {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+}
+.phone .phonebox .phonecon input {
+  width: 100%;
+  height: 0.875rem;
+  line-height: 0.875rem;
+  font-size: 0.875em;
+  padding: 0 0.3125em;
+}
+.phone .phonebox .phonecon .button {
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  background: #004F9B;
+  cursor: pointer;
+  line-height: 0.875rem;
+}
+
+.phoneSmall {
+  position: fixed;
+  right: 1px;
+  bottom: 40%;
+  width: 1.125rem;
+  height: 2.125rem;
+  background-color: #37bbff;
+}
+.phoneSmall .phonebox {
+  width: 100%;
+  height: 100%;
+  background: url(../img/btn-show-bg.png) no-repeat center;
+  background-size: 100%;
+}
+
+.zixun {
+  position: fixed;
+  right: 1px;
+  bottom: 0;
+}
+.zixun .zixunCon {
+  background: #e5c3b2;
+  height: 2.125rem;
+  width: 2.125rem;
+  -moz-border-radius: 0 2.125rem 0 0;
+  -webkit-border-radius: 0 2.125rem 0 0;
+  border-radius: 2.125rem 0 0 0;
+  background: #00aef3 url(../img/module-bg-3.png) center no-repeat;
+  background-size: 70%;
+  background-position: 70% 70%;
+}
+
+/*# sourceMappingURL=about.css.map */

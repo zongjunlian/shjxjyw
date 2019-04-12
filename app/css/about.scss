@@ -1,0 +1,227 @@
+$brower_default_font_size: 16px !default;
+html{
+    font-size: $brower_default_font_size;
+}
+@function px2rem($px){
+    @return $px / $brower_default_font_size * 1rem;
+}
+@function px2em($px, $base-font-size: 16px) {
+    @if (unitless($px)) {
+        @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+        @return px2em($px + 0px); // That may fail.
+    } @else if (unit($px) == em) {
+        @return $px;
+    }
+    @return ($px / $base-font-size) * 1em;
+}
+.about-top {
+    font-size: 0.4rem;
+    color: #999999;
+    line-height: 0.75rem;
+    border-bottom: 1px solid #eeeeee;
+    padding: px2rem(5px);
+    text-align: right;
+}
+.about-top a:nth-child(2) {
+    color: #3d5aa0;
+}
+.about{
+    padding:0 px2rem(5px) px2rem(5px);
+    p{
+        text-indent:px2rem(14px);
+        padding: px2rem(5px)0;
+        font-size: px2em(20px);
+        line-height: px2em(28px);;
+    }
+}
+.zhaosheng{
+    padding:0 px2rem(5px) px2rem(5px);
+    ul{
+        margin: px2rem(5px) 0;
+        li{
+            padding: 0.3125rem 0;
+            border-bottom: px2em(1px) dashed #bababa;
+            .dyh3 {
+                overflow: hidden;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                word-break: break-all;
+                font-size: 0.475rem;
+                color: #666666;
+                line-height: 0.515625rem;
+            }
+        }
+    }
+}
+.zhengshu{
+    padding:0 px2rem(5px) px2rem(5px);
+    img{
+        margin-top:px2rem(5px) ;
+        width: 100%;
+    }
+}
+.baoming{
+    padding:0 px2rem(5px) px2rem(5px);
+    .baomingBtn{
+        margin-top: px2rem(10px);
+        .btn{
+            padding: px2rem(2px) px2rem(10px);
+            font-size: px2em(24px);
+        }
+    }
+    input,select{
+        margin-top: px2rem(5px);
+        display: block;
+        width: 100%;
+        height:px2rem(18px);
+        padding:px2rem(2px) px2rem(4px);
+        font-size: px2em(22px);
+//      line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+    select option{
+        width: 100%;
+    }
+}
+.page{
+    text-align: center;
+    margin-bottom: 0.625rem;
+    margin-top: 1.5rem;
+    a{
+        font-size: px2em(18px);
+        color: #999999;
+        padding: 0.15625rem 0.234375rem;
+        border: 1px solid #dcdcdc;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        margin: 0 0.15625rem;
+    }
+}
+.nwscont{
+    padding:px2rem(5px) 0;
+}
+.nwstop{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.234375rem;
+    border-bottom: 1px solid #d2d2d2;
+}
+.nwsh3 {
+    font-size: 0.4375rem;
+    color: #3e5ba1;
+    line-height: 0.5625rem;
+}
+.nwstime {
+    font-size: px2em(18px);
+    color: #999999;
+    line-height: 0.75rem;
+}
+[data-dpr="1"] .dt-nyp{
+    font-size: 18px;
+}
+[data-dpr="2"] .dt-nyp{
+    font-size: 36px;
+}
+[data-dpr="3"] .dt-nyp{
+    font-size: 46px;
+}
+.dt-nyp{
+    margin: px2rem(10px) 0;
+    color: #333333;
+    line-height: 0.75rem;
+}
+.nwssele{
+    margin: px2rem(10px) 0;
+    font-size: px2em(20px);
+    color: #666666;
+    line-height: px2rem(12px);
+}
+
+//免费通话
+.phone{
+    position: fixed;
+    right: 1px;
+    bottom: 30%;
+    background:rgb(55, 187, 255);
+    width:px2rem(54px);
+    height:px2rem(80px) ;
+    font-size: px2em(20px);
+    z-index: 20;
+    .phonebox{
+        width:100%;
+        height: 100%;
+        background: url(../img/1.png)no-repeat center;
+        background-size: 100%;
+        background-position-y:px2rem(8px)  ;
+        z-index: 2;
+        .close{
+            font-size: px2em(24px);
+            position: absolute;
+            top: 0;
+            right: px2em(2px);
+        }
+        .phonecon{
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width:100%;
+        input{
+           width:100%; 
+           height: px2rem(14px);
+           line-height: px2rem(14px);
+           font-size: px2em(14px);
+           padding:0 px2em(5px);
+        }
+        .button{
+            margin: 0;
+            text-align: center;
+            color: #fff;
+            background:#004F9B;
+            cursor: pointer;
+            line-height: px2rem(14px);
+            
+        }
+    }
+    }
+}
+.phoneSmall{
+    position: fixed;
+    right: 1px;
+    bottom: 40%;
+    width:px2rem(18px);
+    height:px2rem(34px) ;
+    background-color: rgb(55, 187, 255);
+    .phonebox{
+        width:100%;
+        height: 100%;
+        background: url(../img/btn-show-bg.png)no-repeat center;
+        background-size: 100%;
+    }
+    
+}
+.zixun{
+    position: fixed;
+    right: 1px;
+    bottom: 0;
+    .zixunCon{
+        background:#e5c3b2;
+        height:px2rem(34px);
+        width:px2rem(34px);
+        -moz-border-radius:0 px2rem(34px) 0 0;
+        -webkit-border-radius:0 px2rem(34px) 0 0;
+        border-radius:px2rem(34px) 0  0 0;
+        background: #00aef3 url(../img/module-bg-3.png) center no-repeat;
+        background-size: 70%;
+        background-position: 70% 70%;
+    }
+}

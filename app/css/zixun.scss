@@ -1,0 +1,156 @@
+$brower_default_font_size: 16px !default;
+html{
+    font-size: $brower_default_font_size;
+}
+@function px2rem($px){
+    @return $px / $brower_default_font_size * 1rem;
+}
+@function px2em($px, $base-font-size: 16px) {
+    @if (unitless($px)) {
+        @warn "Assuming #{$px} to be in pixels, attempting to convert it into pixels for you";
+        @return px2em($px + 0px); // That may fail.
+    } @else if (unit($px) == em) {
+        @return $px;
+    }
+    @return ($px / $base-font-size) * 1em;
+}
+
+@mixin font-dpr($font-size){
+    font-size: $font-size;
+
+    [data-dpr="2"] & {
+        font-size: $font-size * 2;
+    }
+
+    [data-dpr="3"] & {
+        font-size: $font-size * 3;
+    }
+}
+//@include font-dpr(16px);
+
+body,html{
+    background: #efefef;
+}
+.zixun{
+    padding: px2rem(5px);
+}
+.liuyan{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: px2rem(5px);
+    border-radius: px2rem(3px);
+    p{
+         border-bottom: px2em(1px) solid #eee;
+         line-height: px2rem(20px);
+         color: #999;
+         letter-spacing: px2em(2px);
+    }
+}
+.kefu-box{
+    font-size:px2em(20px);
+    .tit{
+        line-height: px2rem(20px);
+        font-size:px2em(18px) ;
+        letter-spacing: px2em(1px);
+        color: #888;
+        padding: 0 15px;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+    .kefu-con{
+        border-bottom-left-radius: 3px;
+        border-bottom-right-radius: 3px;
+        background: #ededed;
+        width:100%;
+        margin-top: -1px;
+        font-size:px2em(18px);
+        textarea{
+            margin-top: px2em(5px);
+            width:97%;
+            border: none;
+            overflow: scroll;
+            padding:px2em(5px);
+            font-size:px2em(18px);
+        }
+        .send{
+                display: block;
+                background: #00aef3 ;
+                color: #fff;
+                text-align: center;
+                border: 1px solid #00aef3;
+                border-radius: px2rem(3px);
+                line-height:px2rem(18px);
+                font-size:px2em(18px);
+            }
+        .nodeboard{
+            height: px2rem(14px);
+            width: 100%;
+            border: 1px solid #d5d5d5;
+            position: relative;
+            background-color: #fff;
+            .user{
+                width: px2rem(14px);
+                height: 100%;
+                display: inline-block;
+                text-align: center;
+                background-color: #fff;
+                vertical-align: top;
+                background: url(../img/user.png)no-repeat center;
+                background-size: 50%;
+            }
+            .nodephone{
+                width: px2rem(14px);
+                height: 100%;
+                display: inline-block;
+                text-align: center;
+                background-color: #fff;
+                vertical-align: top;
+                background: url(../img/nodephone.png)no-repeat center;
+                background-size: 50%;
+            }
+            .nodeemail{
+                width: px2rem(14px);
+                height: 100%;
+                display: inline-block;
+                text-align: center;
+                background-color: #fff;
+                vertical-align: top;
+                background: url(../img/nodemail.png)no-repeat center;
+                background-size: 50%;
+            }
+            input{
+                    margin: 0;
+                    height:100%;
+                    overflow: hidden;
+                    border: none;
+                    display: inline-block;
+                    outline: 0;
+            }
+            
+        }
+        
+    }
+}
+.kefu-box .detail{
+    background: #fff;
+    border: 1px solid #fff;
+    padding: px2rem(8px) px2rem(5px);
+    border-radius: px2rem(3px);
+    margin-top: px2rem(10px);
+    font-size:px2em(14px); ;
+}
+.mt10{
+    margin-top: px2rem(10px);
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{
+    color:#999;
+}
+input::-moz-placeholder,textarea::-webkit-input-placeholder{   /* Mozilla Firefox 19+ */
+    color:#999;
+}
+input:-moz-placeholder,textarea::-webkit-input-placeholder{    /* Mozilla Firefox 4 to 18 */
+   color:#999;
+}
+input:-ms-input-placeholder,textarea::-webkit-input-placeholder{  /* Internet Explorer 10-11 */ 
+    color:#999;
+}

@@ -1,0 +1,350 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\000033}}
+.containerBox .wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\000039}}
+.containerBox .wrapper .container_top .left .left-tab {
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000311}}
+.containerBox .wrapper .container_top .left .left-tab li {
+  margin-top: 10px;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  cursor: pointer;
+  display: block;
+  padding: 3px;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000320}}
+.containerBox .wrapper .container_top .left .left-tab li img {
+  height: 100%;
+  width: 100%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000325}}
+.containerBox .wrapper .container_top .left .left-tab li:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000328}}
+.containerBox .wrapper .container_top .left .left-tab li.active {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000333}}
+.containerBox .wrapper .container_top .left .left-con {
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 400px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000337}}
+.containerBox .wrapper .container_top .left .left-con .title {
+  padding: 0 15px;
+  border-bottom: 1px solid #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000340}}
+.containerBox .wrapper .container_top .left .left-con .title p {
+  font-size: 18px;
+  color: #005bac;
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000347}}
+.containerBox .wrapper .container_top .left .left-con .title a {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000354}}
+.containerBox .wrapper .container_top .left .left-con .major-con {
+  padding: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000356}}
+.containerBox .wrapper .container_top .left .left-con .major-con .intro-box {
+  position: relative;
+  padding-left: 36px;
+  height: 213px;
+  border: 1px solid #e5e5e5;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000361}}
+.containerBox .wrapper .container_top .left .left-con .major-con .intro-box .intro-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 5px 12px 0 6px;
+  width: 36px;
+  height: 92px;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #fff;
+  background: url(../img/bg.png) no-repeat -530px -35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000373}}
+.containerBox .wrapper .container_top .left .left-con .major-con .intro-box .link-box {
+  height: 213px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000375}}
+.containerBox .wrapper .container_top .left .left-con .major-con .intro-box .link-box a {
+  float: left;
+  margin: 14px 0 0 10px;
+  height: 26px;
+  line-height: 26px;
+  width: 93px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f0f0f0;
+  color: #545454;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000392}}
+.containerBox .wrapper .container_top .right {
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 284px;
+  padding: 15px;
+  padding: 20px 15px\0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\0000398}}
+.containerBox .wrapper .container_top .right .sign-up-hd {
+  position: relative;
+  padding-left: 80px;
+  height: 71px;
+  border-bottom: 1px solid #dfdfdf;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003103}}
+.containerBox .wrapper .container_top .right .sign-up-hd .kf-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 71px;
+  height: 71px;
+  background: url(../img/bg.png) no-repeat -570px -35px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003113}}
+.containerBox .wrapper .container_top .right .side-form .form-item {
+  margin-top: 12px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003115}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-lab {
+  float: left;
+  width: 50px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003119}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-field {
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003121}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-field .select-w2 {
+  float: left;
+  width: 95px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003125}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-field .select-w2:first-child {
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003128}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-field .btn, .containerBox .wrapper .container_top .right .side-form .form-item .form-field .btn:hover {
+  display: inline-block;
+  padding: 4px 10px;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  border-bottom: 2px solid #e06900;
+  background-color: #ff7700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003138}}
+.containerBox .wrapper .container_top .right .side-form .form-item .form-field .text {
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003147}}
+.containerBox .wrapper .slide-box {
+  margin: 20px 0;
+  padding: 20px;
+  order: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003152}}
+.containerBox .wrapper .slide-box .slide-con {
+  width: 956px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003155}}
+.containerBox .wrapper .slide-box .slide-con .img-scroll {
+  position: relative;
+  overflow: hidden;
+  height: 111px;
+  width: 500%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003160}}
+.containerBox .wrapper .slide-box .slide-con .img-scroll ul {
+  margin: 0;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003164}}
+.containerBox .wrapper .slide-box .slide-con .img-scroll li {
+  float: left;
+  margin-right: 10px;
+  width: 162px;
+  list-style: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003169}}
+.containerBox .wrapper .slide-box .slide-con .img-scroll li img {
+  width: 154px;
+  height: 111px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  background: #FFF;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003182}}
+.containerBox .wrapper .news {
+  height: 460px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003185}}
+.containerBox .wrapper .news .newsLft {
+  margin-right: 20px;
+  width: 280px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003188}}
+.containerBox .wrapper .news .newsLft .content {
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003191}}
+.containerBox .wrapper .news .newsLft .content .content-hd {
+  padding: 0 15px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003196}}
+.containerBox .wrapper .news .newsLft .content .content-hd .content-title {
+  float: left;
+  font-size: 18px;
+  color: #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003201}}
+.containerBox .wrapper .news .newsLft .content .content-hd .more {
+  float: right;
+  font-size: 14px;
+  color: #aaa;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003208}}
+.containerBox .wrapper .news .newsLft .content ul {
+  min-height: 380px;
+  padding: 15px;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003212}}
+.containerBox .wrapper .news .newsLft .content ul li {
+  padding-left: 20px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px dashed #e6e6e6;
+  background: url(../img/list_icon_2.png) no-repeat 0 center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003223}}
+.containerBox .wrapper .news .newsMid .content {
+  width: 399px;
+  overflow: hidden;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003226}}
+.containerBox .wrapper .news .newsMid .content .tabs-hd {
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003228}}
+.containerBox .wrapper .news .newsMid .content .tabs-hd li {
+  float: left;
+  width: 133px;
+  height: 49px;
+  line-height: 49px;
+  font-size: 18px;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px 1px 1px;
+  border-color: #f0f0f0 #f0f0f0 #dfdfdf;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003240}}
+.containerBox .wrapper .news .newsMid .content .tabs-hd li.active {
+  color: #005bac;
+  border-color: #8dbf2a #dfdfdf #fff;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003247}}
+.containerBox .wrapper .news .newsMid .content .tabs-bd {
+  height: 383px;
+  border: 1px solid #f1f1f1;
+  padding: 15px;
+  border-top: 0;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003254}}
+.containerBox .wrapper .news .newsMid .content .tabs-bd ul li {
+  padding-left: 20px;
+  border-bottom: 1px dashed #e6e6e6;
+  height: 37px;
+  line-height: 37px;
+  background: url(../img/list_icon_1.png) no-repeat 0 center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003265}}
+.containerBox .wrapper .news .newsRit {
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  width: 280px;
+  float: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003270}}
+.containerBox .wrapper .news .newsRit .zs-hd {
+  padding: 0 15px;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003275}}
+.containerBox .wrapper .news .newsRit .zs-hd .zs-title {
+  float: left;
+  font-size: 18px;
+  color: #005bac;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003280}}
+.containerBox .wrapper .news .newsRit .zs-hd .more {
+  float: right;
+  color: #aaaaaa;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003287}}
+.containerBox .wrapper .news .newsRit .zs-bd {
+  padding: 15px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003289}}
+.containerBox .wrapper .news .newsRit .zs-bd .img-box:first-child {
+  margin-top: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003292}}
+.containerBox .wrapper .news .newsRit .zs-bd .img-box {
+  margin-top: 10px;
+  height: 170px;
+  width: 244px;
+  overflow: hidden;
+  display: block;
+  padding: 3px;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/my_zjl\/shjxjyw\/css\/jiaoda\.scss}line{font-family:\00003301}}
+.containerBox .wrapper .news .newsRit .zs-bd .img-box img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  vertical-align: top;
+}
+
+/*# sourceMappingURL=jiaoda.css.map */

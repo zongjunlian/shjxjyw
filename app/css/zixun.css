@@ -1,0 +1,142 @@
+html {
+  font-size: 16px;
+}
+
+body, html {
+  background: #efefef;
+}
+
+.zixun {
+  padding: 0.3125rem;
+}
+
+.liuyan {
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 0.3125rem;
+  border-radius: 0.1875rem;
+}
+.liuyan p {
+  border-bottom: 0.0625em solid #eee;
+  line-height: 1.25rem;
+  color: #999;
+  letter-spacing: 0.125em;
+}
+
+.kefu-box {
+  font-size: 1.25em;
+}
+.kefu-box .tit {
+  line-height: 1.25rem;
+  font-size: 1.125em;
+  letter-spacing: 0.0625em;
+  color: #888;
+  padding: 0 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.kefu-box .kefu-con {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  background: #ededed;
+  width: 100%;
+  margin-top: -1px;
+  font-size: 1.125em;
+}
+.kefu-box .kefu-con textarea {
+  margin-top: 0.3125em;
+  width: 97%;
+  border: none;
+  overflow: scroll;
+  padding: 0.3125em;
+  font-size: 1.125em;
+}
+.kefu-box .kefu-con .send {
+  display: block;
+  background: #00aef3;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #00aef3;
+  border-radius: 0.1875rem;
+  line-height: 1.125rem;
+  font-size: 1.125em;
+}
+.kefu-box .kefu-con .nodeboard {
+  height: 0.875rem;
+  width: 100%;
+  border: 1px solid #d5d5d5;
+  position: relative;
+  background-color: #fff;
+}
+.kefu-box .kefu-con .nodeboard .user {
+  width: 0.875rem;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/user.png) no-repeat center;
+  background-size: 50%;
+}
+.kefu-box .kefu-con .nodeboard .nodephone {
+  width: 0.875rem;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/nodephone.png) no-repeat center;
+  background-size: 50%;
+}
+.kefu-box .kefu-con .nodeboard .nodeemail {
+  width: 0.875rem;
+  height: 100%;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  vertical-align: top;
+  background: url(../img/nodemail.png) no-repeat center;
+  background-size: 50%;
+}
+.kefu-box .kefu-con .nodeboard input {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  border: none;
+  display: inline-block;
+  outline: 0;
+}
+
+.kefu-box .detail {
+  background: #fff;
+  border: 1px solid #fff;
+  padding: 0.5rem 0.3125rem;
+  border-radius: 0.1875rem;
+  margin-top: 0.625rem;
+  font-size: 0.875em;
+}
+
+.mt10 {
+  margin-top: 0.625rem;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #999;
+}
+
+input::-moz-placeholder, textarea::-webkit-input-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999;
+}
+
+input:-moz-placeholder, textarea::-webkit-input-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999;
+}
+
+input:-ms-input-placeholder, textarea::-webkit-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+/*# sourceMappingURL=zixun.css.map */
